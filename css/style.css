@@ -76,7 +76,7 @@ nav.main-nav a.active { color: var(--gold-light); border-bottom: 2px solid var(-
 .hero {
   background:
     linear-gradient(rgba(11, 34, 64, 0.84), rgba(11, 34, 64, 0.84)),
-    url("../assets/forget-me-knot-banner.jpg") center/cover no-repeat;
+    url("https://github.com/user-attachments/assets/ef0864d8-5a29-4819-a71a-ff23d20d83ed") center/cover no-repeat;
   color: #fff;
   padding: 70px 0 60px;
   text-align: center;
@@ -149,7 +149,7 @@ h2 {
   inset: 0;
   background:
     linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
-    url("../assets/forget-me-knot-banner.jpg") center/cover no-repeat;
+    url("https://github.com/user-attachments/assets/ef0864d8-5a29-4819-a71a-ff23d20d83ed") center/cover no-repeat;
   opacity: 1;
   pointer-events: none;
 }

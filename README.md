@@ -19,10 +19,11 @@ Domain: `forgetmeknotboatandrvstorage.com`
 - Rates: $120/mo up to 20 ft, $240/mo for 46–50 ft, "call for rates" 21–45 ft
 - Storage: boats, RVs, passenger vehicles, semi trucks, trailers — uncovered, locked gate, security cameras
 
-## No artwork yet
-The coworker's artwork wasn't available, so the logo is a styled text wordmark.
-Swap in real artwork later by adding an image to `css/style.css`'s `.brand`
-or an `<img>` in the header — no rebuild needed.
+## Artwork
+The banner artwork is currently loaded from the provided GitHub image attachment.
+To store it in the repository instead, add the image as
+`assets/forget-me-knot-banner.jpg` and update the banner image URLs in
+`css/style.css` and the `image` field in `index.html` to use that local file.
 
 ## To publish ASAP
 1. **Hosting**: Any static host works (Netlify, GitHub Pages, Vercel, or
