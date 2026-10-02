@@ -74,30 +74,27 @@ nav.main-nav a.active { color: var(--gold-light); border-bottom: 2px solid var(-
 
 /* ---------- Hero ---------- */
 .hero {
-  background:
-    linear-gradient(rgba(11, 34, 64, 0.42), rgba(11, 34, 64, 0.42)),
-    url("../assets/forget-me-knot-banner.png") center/cover no-repeat;
-  color: #fff;
-  padding: 70px 0 60px;
+  background: #fff;
+  color: var(--navy);
+  padding: 40px 0 60px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  border-bottom: 1px solid #e3e8ee;
 }
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at center, rgba(255,255,255,0.05), transparent 60%);
-  pointer-events: none;
+.hero-banner {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto 32px;
 }
-.hero > .container { position: relative; z-index: 1; }
+.hero-banner-small { max-width: 600px; margin-bottom: 24px; }
 .hero h1 {
   font-size: 2.4rem;
   margin: 0 0 16px;
 }
 .hero p {
   font-size: 1.15rem;
-  color: #d7e1ec;
+  color: var(--text);
   max-width: 650px;
   margin: 0 auto 28px;
 }
@@ -114,6 +111,8 @@ nav.main-nav a.active { color: var(--gold-light); border-bottom: 2px solid var(-
 .btn-primary:hover { background: var(--gold-light); }
 .btn-secondary { background: transparent; color: #fff; border: 2px solid #fff; }
 .btn-secondary:hover { background: #fff; color: var(--navy); }
+.hero .btn-secondary { color: var(--navy); border-color: var(--navy); }
+.hero .btn-secondary:hover { background: var(--navy); color: #fff; }
 
 /* ---------- Sections ---------- */
 section { padding: 50px 0; }
