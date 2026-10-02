@@ -75,7 +75,7 @@ nav.main-nav a.active { color: var(--gold-light); border-bottom: 2px solid var(-
 /* ---------- Hero ---------- */
 .hero {
   background:
-    linear-gradient(rgba(11, 34, 64, 0.84), rgba(11, 34, 64, 0.84)),
+    linear-gradient(rgba(11, 34, 64, 0.42), rgba(11, 34, 64, 0.42)),
     url("https://github.com/user-attachments/assets/ef0864d8-5a29-4819-a71a-ff23d20d83ed") center/cover no-repeat;
   color: #fff;
   padding: 70px 0 60px;
