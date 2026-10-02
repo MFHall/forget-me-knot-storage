@@ -20,10 +20,9 @@ Domain: `forgetmeknotboatandrvstorage.com`
 - Storage: boats, RVs, passenger vehicles, semi trucks, trailers — uncovered, locked gate, security cameras
 
 ## Artwork
-The banner artwork is currently loaded from the provided GitHub image attachment.
-To store it in the repository instead, add the image as
-`assets/forget-me-knot-banner.jpg` and update the banner image URLs in
-`css/style.css` and the `image` field in `index.html` to use that local file.
+The banner artwork is stored in the repository at
+`assets/forget-me-knot-banner.png`. To change it, replace that file (it is
+referenced from `css/style.css` and the `image` field in `index.html`).
 
 ## To publish ASAP
 1. **Hosting**: Any static host works (Netlify, GitHub Pages, Vercel, or
